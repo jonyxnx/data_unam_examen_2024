@@ -29,7 +29,7 @@ def get_info_from_results_url(url, df, career, faculty_name, area):
                 'Career': career,
                 'Faculty': faculty_name,
                 'Scores': values[1].text.strip(),
-                "Accepted": values[2].text.strip() == 'S'
+                'Accepted': values[2].text.strip() == 'S'
             })
 
 # Function to get the information for all the careers
